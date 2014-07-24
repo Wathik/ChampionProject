@@ -14,13 +14,13 @@
 		D93BAAF91981789800B73B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BAAF81981789800B73B51 /* main.m */; };
 		D93BAAFD1981789800B73B51 /* SecureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BAAFC1981789800B73B51 /* SecureAppDelegate.m */; };
 		D93BAB001981789800B73B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93BAAFE1981789800B73B51 /* Main.storyboard */; };
-		D93BAB031981789800B73B51 /* SecureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BAB021981789800B73B51 /* SecureViewController.m */; };
 		D93BAB051981789800B73B51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93BAB041981789800B73B51 /* Images.xcassets */; };
 		D93BAB0C1981789800B73B51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93BAB0B1981789800B73B51 /* XCTest.framework */; };
 		D93BAB0D1981789800B73B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93BAAEC1981789800B73B51 /* Foundation.framework */; };
 		D93BAB0E1981789800B73B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93BAAF01981789800B73B51 /* UIKit.framework */; };
 		D93BAB161981789800B73B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D93BAB141981789800B73B51 /* InfoPlist.strings */; };
 		D93BAB181981789800B73B51 /* ChampionProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BAB171981789800B73B51 /* ChampionProjectTests.m */; };
+		D93BAB2C198197C500B73B51 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BAB2B198197C500B73B51 /* CommonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		D93BAAFB1981789800B73B51 /* SecureAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureAppDelegate.h; sourceTree = "<group>"; };
 		D93BAAFC1981789800B73B51 /* SecureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureAppDelegate.m; sourceTree = "<group>"; };
 		D93BAAFF1981789800B73B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D93BAB011981789800B73B51 /* SecureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureViewController.h; sourceTree = "<group>"; };
-		D93BAB021981789800B73B51 /* SecureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureViewController.m; sourceTree = "<group>"; };
 		D93BAB041981789800B73B51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D93BAB0A1981789800B73B51 /* ChampionProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChampionProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93BAB0B1981789800B73B51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D93BAB131981789800B73B51 /* ChampionProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChampionProjectTests-Info.plist"; sourceTree = "<group>"; };
 		D93BAB151981789800B73B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D93BAB171981789800B73B51 /* ChampionProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChampionProjectTests.m; sourceTree = "<group>"; };
+		D93BAB2A198197C500B73B51 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonViewController.h; path = ../CommonViewController.h; sourceTree = "<group>"; };
+		D93BAB2B198197C500B73B51 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonViewController.m; path = ../CommonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				D93BAAFB1981789800B73B51 /* SecureAppDelegate.h */,
 				D93BAAFC1981789800B73B51 /* SecureAppDelegate.m */,
 				D93BAAFE1981789800B73B51 /* Main.storyboard */,
-				D93BAB011981789800B73B51 /* SecureViewController.h */,
-				D93BAB021981789800B73B51 /* SecureViewController.m */,
+				D93BAB2A198197C500B73B51 /* CommonViewController.h */,
+				D93BAB2B198197C500B73B51 /* CommonViewController.m */,
 				D93BAB041981789800B73B51 /* Images.xcassets */,
 				D93BAAF31981789800B73B51 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93BAAF91981789800B73B51 /* main.m in Sources */,
-				D93BAB031981789800B73B51 /* SecureViewController.m in Sources */,
+				D93BAB2C198197C500B73B51 /* CommonViewController.m in Sources */,
 				D93BAAFD1981789800B73B51 /* SecureAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
